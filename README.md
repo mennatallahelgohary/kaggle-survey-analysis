@@ -1,1 +1,62 @@
-# kaggle-survey-analysis
+# Kaggle Data Science Survey Analysis (2017–2021)
+
+## 📌 Project Overview
+This project analyzes the Kaggle Data Science Survey (2017–2021) dataset using **Python**.  
+The dataset contains responses from thousands of data science professionals worldwide, covering demographics, education, job roles, and tools.
+
+## 🎯 Objectives
+- Clean the dataset by handling missing values and duplicates
+- Select key categorical variables for analysis
+- Generate insights about respondent demographics and preferences
+- Visualize findings for better understanding
+
+## 🛠 Tools & Libraries
+- Python 3
+- Pandas
+- Matplotlib
+- Seaborn
+
+## 📂 Dataset
+The dataset used is the **Kaggle Data Science Survey 2017–2021**, available on [Kaggle](https://www.kaggle.com).
+
+## 🔑 Key Steps
+1. **Data Loading & Inspection**  
+   Loaded the dataset and examined its structure.
+
+2. **Data Cleaning**  
+   - Removed unnecessary or incomplete columns  
+   - Filled missing values  
+   - Removed duplicates  
+
+3. **Categorical Handling**  
+   Mapped and analyzed categorical variables such as education, job roles, and programming language usage.
+
+4. **Insight Generation**  
+   - Top 5 age groups  
+   - Top education levels  
+   - Top job roles  
+   - Most commonly used programming languages  
+
+5. **Visualization (Bonus)**  
+   - Age distribution chart  
+   - Top 5 job roles bar chart  
+   - Programming languages usage bar chart  
+
+## 📊 Sample Insights
+- Most respondents are between **25–34 years old**.  
+- A **Master’s degree** is the most common education level.  
+- Popular job roles include **Data Scientist** and **Software Engineer**.  
+- **Python** is by far the most widely used programming language.  
+
+## ✅ Conclusion
+This analysis provides a clear overview of the data science community’s demographics, skills, and preferences.  
+It highlights how Python continues to dominate the field and how education and experience shape the workforce.
+
+## 📷 Dashboard Previews
+(Add screenshots of your charts here, e.g. `images/age_distribution.png`)
+
+## 🚀 How to Run
+1. Clone this repository  
+2. Install required libraries:  
+   ```bash
+   pip install pandas matplotlib seaborn
